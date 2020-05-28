@@ -1,0 +1,4 @@
+mosquitto_pub -t /profinet/request -m "{\"op\":\"read\", \"ip\": \"172.16.1.70\", \"slot\":\"1\", \"sub_slot\":\"1\", \"api\":\"0\"}"
+
+mosquitto_pub -t /profinet/request -m "{\"op\":\"write\", \"ip\": \"172.16.1.70\", \"slot\":\"1\", \"sub_slot\":\"1\", \"api\":\"0\", \"data\":\"02 01 00 11 22 33 44 55\"}"
+

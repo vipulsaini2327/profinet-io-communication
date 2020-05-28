@@ -1,0 +1,6 @@
+#This is the configuration file...
+IP_RANGE_MIN     192.168.0.1
+IP_RANGE_MAX     192.168.0.254
+IDENT_REQ_TIMEOUT     5
+INTERFACE_NAME     enp2s0
+#End of Configuration file.
